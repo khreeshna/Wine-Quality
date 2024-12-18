@@ -1,15 +1,16 @@
 # Wine-Quality
 
 # Workflows
-Update config.yaml
-Update schema.yaml
-Update params.yaml
-Update the entity
-Update the configuration manager in src config
-Update the components
-Update the pipeline
-Update the main.py
-Update the app.py
+
+  1.Update config.yaml
+  2.Update schema.yaml
+  3.Update params.yaml
+  4.Update the entity
+  5.Update the configuration manager in src config
+  6.Update the components
+  7.Update the pipeline
+  8.Update the main.py
+  9.Update the app.py
 
 # How to run?
 
@@ -33,14 +34,14 @@ python app.py
 1. Login to AWS console.
 2. Create IAM user for deployment
 
-#with specific access
+# with specific access
 
 1. EC2 access : It is virtual machine
 
 2. ECR: Elastic Container registry to save your docker image in aws
 
 
-#Description: About the deployment
+# Description: About the deployment
 
 1. Build docker image of the source code
 
@@ -52,7 +53,7 @@ python app.py
 
 5. Lauch your docker image in EC2
 
-#Policy:
+# Policy:
 
 1. AmazonEC2ContainerRegistryFullAccess
 2. AmazonEC2FullAccess
@@ -61,7 +62,7 @@ python app.py
 4. Create EC2 machine (Ubuntu)
 5. Open EC2 and Install docker in EC2 Machine:
 
-#optinal
+# optinal
 
 sudo apt-get update -y
 
